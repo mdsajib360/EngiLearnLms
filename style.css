@@ -1,0 +1,12 @@
+*{
+    font-family: "Inter", sans-serif;
+    
+    /* background-image: url('/images/layer1.PNG'); */
+    box-sizing: border-box;
+}
+#logo{
+    height: 75px;
+}
+#home_buttons, #icons{
+    margin-left: 30%;
+}
