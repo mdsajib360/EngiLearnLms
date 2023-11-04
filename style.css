@@ -246,3 +246,32 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* media for banner_content */
+
+@media only screen and (max-width: 600px) {
+    .banner_content{
+        padding-top: 10px !important;
+        padding-left: 10px !important;
+    }
+    #banner h1{
+        font-size: 15px !important;
+    }
+    #banner h6{
+        font-size: 10px;
+    }
+    .icon_field img{
+        width: 200px !important;
+    }
+    .support{
+        margin: 0 !important;
+        margin-bottom: 3px !important;
+    }
+    .support h6{
+        font-size: 10px !important;
+    }
+    .at{
+        font-size: 15px !important;
+        font-weight: 500;
+    }
+}
