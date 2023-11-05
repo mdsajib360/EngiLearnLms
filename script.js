@@ -101,7 +101,7 @@ const core_features = [
     }
 ]
 const core_cards = document.getElementById('core_cards');
-console.log(core_cards)
+// console.log(core_cards)
 
 for (card of core_features) {
     
@@ -119,4 +119,39 @@ for (card of core_features) {
                    </div>
 
 `
+}
+
+
+// accordion
+let acc = document.getElementsByClassName("accordion");
+let i;
+const plusOrMinus = document.getElementsByClassName('plus');
+// console.log(plusOrMinus)
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+        
+        /* Toggle between hiding and showing the active panel */
+        const panel = this.nextElementSibling;
+       
+        for (span of plusOrMinus) {
+            if (panel.style.display === "block") {
+                span.innerHTML = `<p> + </p>`
+            } else {
+                span.innerHTML =`<p> − </p>`
+            }
+        }
+
+        if (panel.style.display === "none") {
+            panel.style.display = "block";
+            
+
+            plusOrMinus.innerHTML = `<p>+</p>`;
+        } else {
+            panel.style.display = "none";
+        }
+    });
 }
