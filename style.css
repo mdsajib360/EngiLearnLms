@@ -90,7 +90,7 @@
 #purchase h1,
 #purchase h6,
 #purchase button,
-.footer-copyright p {
+.footer_copyright p {
     color: #fff;
 }
 
@@ -99,7 +99,8 @@ footer {
     padding-bottom: 10px;
 }
 
-.footer-copyright {
+.footer_copyright {
+    margin-top: 80px;
     border-top: 2px solid rgba(79, 84, 89, 0.427);
 }
 
@@ -319,6 +320,8 @@ footer {
 .features {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .features h6{
     color: rgb(208, 196, 196) !important;
@@ -394,14 +397,17 @@ footer {
         font-size: 30px !important;
     }
 
+
     footer h2 {
         font-size: 15px !important;
     }
 
     .features {
-
+        
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    
 }
 
 /* media for contact */
@@ -416,6 +422,11 @@ footer {
 @media only screen and (max-width:1699px){
     .video_container{
         margin: 0 100px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .video_container{
+        margin: 0 20px;
     }
 }
 
