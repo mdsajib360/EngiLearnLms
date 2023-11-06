@@ -348,7 +348,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .plus{
     float: right;
@@ -368,6 +368,94 @@ footer {
 .single_accordion{
     width: 1000px;
     margin: 20px;
+}
+
+
+/* cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 200px;
+
+
+
+}
+
+/* media for cards */
+@media only screen and (max-width:1800px){
+    
+    .cards{
+        margin: 0 100px;
+    }
+
+}
+@media only screen and (max-width:1700px){
+    
+    .cards{
+        margin: 0 50px;
+    }
+
+}
+@media only screen and (max-width:1600px){
+    
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 100px;
+    }
+
+}
+@media only screen and (max-width:600px){
+    
+    .cards{
+        grid-template-columns: 1fr;
+        margin: 0 0;
+    }
+
+}
+
+
+
+.single_card{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+    /* width: 450px; */
+    padding: 30px;
+    border-radius: 10px;
+    height: 550px;
+    padding-top: 22%;
+    margin: 10px;
+transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.single_card:hover{
+        transform: translateY(-10px);
+}
+
+.single_card h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+.content{
+    margin: 0 5%;
+}
+
+
+
+.card_btn{
+        font-weight: 500;
+            font-style: italic;
+            letter-spacing: 1px;
+            color: var(--blackColor);
+                
+                border-radius: 10px;
+                width: 100%;
+                border:none;
+                height: 70px;
+                text-align: center;
+}
+
+
+.card_btn:hover{
+    background-color: #5F2DED;
+    color: var(--offWhite)
 }
 
 
