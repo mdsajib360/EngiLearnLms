@@ -1,0 +1,22 @@
+#courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course{
+    margin: 20px 15px;
+    height: 500px;
+}
+img{
+    height: 280px;
+}
+
+@media only screen and (max-width:1450px){
+    #courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:600px){
+    #courses{
+        grid-template-columns: 1fr;
+    }
+}

@@ -155,3 +155,50 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+// courses
+const courses = [
+    {
+        id: 1,
+        img: 'images/courses/courses1.png',
+        description: 'The Complete Cyber Security Course : Hackers Exposed!',
+        author: 'by Alexandar Oni'
+
+
+    },
+    {
+        id: 2,
+        img: 'images/courses/courses2.jpg',
+        description: 'The Complete Cyber Security Course : Hackers Exposed!',
+        author: 'by Joe Natoli'
+
+
+    },
+    {
+        id: 3,
+        img: `images/courses/courses3.jpg`,
+        description: `TUX & Web Design Master Course: Strategy, Design, Development`,
+        author: `by Daniel Walter Scott`
+
+
+    }
+]
+
+
+const coursesElement = document.getElementById('courses');
+
+for (course of courses) {
+    const { img, description, author } = course;
+
+
+    coursesElement.innerHTML += `
+     <div class="card course">
+                <img src="${img}" alt="">
+                <h5>${description} </h5>
+                <p>${author} </p>
+                <button class="btn btn-danger">Enroll It Now</button>
+            </div>
+    
+    `
+}

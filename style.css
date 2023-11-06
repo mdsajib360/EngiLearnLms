@@ -380,6 +380,30 @@ footer {
 
 
 }
+/* courses */
+#courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}.course {
+    margin: 20px 15px;
+    height: 400px;
+}
+.course img {
+    height: 280px;
+}
+@media only screen and (max-width:1450px) {
+    #courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #courses {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 
 /* media for cards */
 @media only screen and (max-width:1800px){
@@ -457,6 +481,10 @@ transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     background-color: #5F2DED;
     color: var(--offWhite)
 }
+
+/* about us page */
+
+
 
 
 /* media queries */
