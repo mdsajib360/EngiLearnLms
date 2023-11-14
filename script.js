@@ -122,40 +122,34 @@ for (card of core_features) {
 }
 
 
-// accordion
-let acc = document.getElementsByClassName("accordion");
-let i;
-const plusOrMinus = document.getElementsByClassName('plus');
-// console.log(plusOrMinus)
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+const plusOrMinus = document.querySelectorAll('.plus');
 
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
         this.classList.toggle("active");
-        
-        /* Toggle between hiding and showing the active panel */
-        const panel = this.nextElementSibling;
-       
-        for (span of plusOrMinus) {
-            if (panel.style.display === "block") {
-                span.innerHTML = `<p> + </p>`
-            } else {
-                span.innerHTML =`<p> − </p>`
-            }
-        }
+        var panel = this.nextElementSibling;
 
-        if (panel.style.display === "none") {
-            panel.style.display = "block";
-            
 
-            plusOrMinus.innerHTML = `<p>+</p>`;
-        } else {
+                for (span of plusOrMinus) {
+                    if (panel.style.display === "block") {
+                        span.innerHTML = `<p> + </p>`
+                    } else {
+                        span.innerHTML =`<p> − </p>`
+                    }
+                }
+
+
+        if (panel.style.display === "block") {
             panel.style.display = "none";
+            
+        } else {
+            panel.style.display = "block";
         }
     });
 }
-
 
 // courses
 const courses = [

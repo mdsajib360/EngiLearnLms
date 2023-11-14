@@ -18,7 +18,7 @@ const courses = [
     {
         id: 3,
         img: `images/courses/courses3.jpg`,
-        description: `TUX & Web Design Master Course: Strategy, Design, Development`,
+        description: `UI UX & Web Design Master Course: Strategy, Design, Development`,
         author: `by Daniel Walter Scott`
 
 
