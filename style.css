@@ -285,7 +285,7 @@ footer {
 /* accordion */
 
 /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
+.accordionf {
     background-color: var(--offWhite);
         color: var(--blackColor);
         cursor: pointer;
@@ -306,7 +306,7 @@ footer {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
-.accordion:hover {
+.accordionf:hover {
         color: var(--secondaryColor);
 }
 
@@ -698,3 +698,152 @@ transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         transform:none;
     }
 }
+
+
+/* messages */
+#googlemap iframe{
+    width: 900px;
+    max-width: 100%;
+    height: 450px;
+}
+.message_area{
+    max-width: 100%;
+width: 900px;
+}
+
+ .map_and_message{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+ }
+ 
+ 
+
+ .form-group{
+    margin-bottom: 20px;
+ }
+  .my-form .btn-default {
+      background-color: #305896;
+      color: #fff;
+      border-radius: 0;
+  }
+  label{
+    margin-bottom: 2px;
+  }
+
+  .my-form .btn-default:hover {
+      background-color: #4498C6;
+      color: #fff;
+  }
+  .message{
+    margin-top: 150px;
+        margin-bottom: 200px;
+  }
+  
+  @media only screen and (max-width:1880px) {
+    
+    #googlemap iframe{
+        width: 850px;
+    }
+    .message_area{
+        width: 850px;
+    }
+    
+  }
+  @media only screen and (max-width:1780px) {
+    
+    #googlemap iframe{
+        width: 800px;
+    }
+    .message_area{
+        width: 800px;
+    }
+    
+  }
+  @media only screen and (max-width:1600px) {
+    
+    #googlemap iframe{
+        width: 700px;
+    }
+    .message_area{
+        width: 700px;
+    }
+    
+  }
+  @media only screen and (max-width:1430px) {
+    
+    #googlemap iframe{
+        width: 650px;
+    }
+    .message_area{
+        width: 650px;
+    }
+    
+  }
+  @media only screen and (max-width:1280px) {
+    
+    #googlemap iframe{
+        width: 550px;
+    }
+    .message_area{
+        width: 550px;
+    }
+    
+  }
+  @media only screen and (max-width:600px) {
+    
+   .map_and_message{
+    flex-direction: column;
+   }
+    
+  }
+
+  #search_box:focus{
+    
+    outline: none;
+  }
+  #search_box{
+    background: #fff;
+    height: 40px;
+    border: 0;
+   width: 90%;
+    
+  }
+  .search{
+    height: 30px;
+
+  }
+  .search_container{
+    background: #fff;
+    border: 1px solid #eeeff0;
+    border-radius: 10px;
+    margin-left:10px ;
+    
+    padding-left: 5px; 
+    padding-right: 5px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 50%;
+    margin: 0 auto;
+   
+        /* transition: width 1.5s; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+  }
+
+
+.search_icon{
+width: 25px;
+
+}
+ 
+
+ 
+@media only screen and (max-width:600px) {
+   .search_container{
+    width: 100%;
+   }
+ }

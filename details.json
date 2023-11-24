@@ -1,0 +1,961 @@
+[
+  {
+    "id": 1,
+    "category": "CyberSecurity",
+    "title": "The Complete Cyber Security Course : Hackers Exposed!",
+    "volume": "Volume 1 : Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking, Learn IT Security & INFOSEC\n",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Alexandar Oni\n\n",
+    "rate": " 4.6 ",
+    "total_ratings": "(50,149 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 12/2021",
+    "language": "English",
+    "img": "images/courses/courses1.png",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "This course is designed for personal and home cyber security, privacy and anonymity. Most of the topics apply in the same way to a business, but the course is delivered as if to an individual for personal cyber security, privacy, and anonymity.",
+      "para2": "It is recommended that you watch volume 1 of this complete course before watching this volume (2) although it is not required.\n",
+      "para3": "Most items referenced in this course are free. But you may elect to purchase additional software, hardware and services discussed in the course. Although It is absolutely not necessary to buy anything to understand and follow the course.",
+      "para4": "You should have a basic understanding of networking concepts.",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Alexandar Oni",
+        "expertise": "Leading Cyber Security Expert - CEO of StationX\n",
+        "rating": "4.5 Instructor Rating",
+        "reviews": "82,467 Reviews",
+        "students": "360,536 Students",
+        "coursers": "7 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/15858120_4fac.jpg",
+        "details1": "Winner of the AI Cyber Security Educator of the Year 2020 award.Shortlisted for Cyber Security Influence of the year 2021",
+        "details2": "Nathan has over 25 years of experience in cyber security, where he has advised some of largest companies in the world, assuring security on  multi-million and multi-billion pound projects. He is the CEO of Station X, a cyber security career development platform and consultancy. More recently he acted as  the lead security consultant on a number of the UK's mobile banking and  payment solutions helping secure to date over £71Bn in transactions.My clients have included; BP, ExxonMobil, Shell, Vodafone, VISA, T-mobile, GSK, COOP Banking Group,",
+        "details3": "Over the years he have spoken at a number of security conferences,  developed free security tools, and discovered serious security  vulnerabilities in leading applications."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Web Development",
+    "title": "The Complete 2023 Web Development Bootcamp",
+    "volume": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps\n",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Dr. Angela Yu",
+    "rate": " 4.2 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses2.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "This course is designed for personal and home cyber security, privacy and anonymity. Most of the topics apply in the same way to a business, but the course is delivered as if to an individual for personal cyber security, privacy, and anonymity.",
+      "para2": "It is recommended that you watch volume 1 of this complete course before watching this volume (2) although it is not required.\n",
+      "para3": "Most items referenced in this course are free. But you may elect to purchase additional software, hardware and services discussed in the course. Although It is absolutely not necessary to buy anything to understand and follow the course.",
+      "para4": "You should have a basic understanding of networking concepts.",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Dr. Angela Yu",
+        "expertise": "Developer and Lead Instructor",
+        "rating": "4.7 Instructor Rating",
+        "reviews": "729,032 Reviews",
+        "students": "2,380,830 Students",
+        "coursers": "7 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/31334738_a13c_3.jpg",
+        "details1": "\n        I'm Angela, I'm a developer with a passion for teaching. I'm the lead instructor at the London App Brewery, London's leading Programming Bootcamp. I've helped hundreds of thousands of students learn to code and change their lives by becoming a developer. ",
+        "details2": "I've been invited by companies such as Twitter, Facebook and Google to teach their employees.\n\nMy first foray into programming was when I was just 12 years old, wanting to build my own Space Invader game. Since then, I've made hundred of websites, apps and games.",
+        "details3":"But most importantly, I realised that my greatest passion is teaching.\n\nI spend most of my time researching how to make learning to code fun and make hard concepts easy to understand. I apply everything I discover into my bootcamp courses. In my courses, you'll find lots of geeky humour but also lots of explanations and animations to make sure everything is easy to understand.\n\nI'll be there for you every step of the way.\n  "
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "User Experience Design",
+    "title": "UX & Web Design Master Course: Strategy, Design, Development",
+    "volume": "Learn how to apply User Experience (UX) principles to your website designs, code a variety of sites, and increase sales!",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "James B.",
+    "rate": " 4.2 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses3.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "This course is designed for personal and home cyber security, privacy and anonymity. Most of the topics apply in the same way to a business, but the course is delivered as if to an individual for personal cyber security, privacy, and anonymity.",
+      "para2": "It is recommended that you watch volume 1 of this complete course before watching this volume (2) although it is not required.\n",
+      "para3": "Most items referenced in this course are free. But you may elect to purchase additional software, hardware and services discussed in the course. Although It is absolutely not necessary to buy anything to understand and follow the course.",
+      "para4": "You should have a basic understanding of networking concepts.",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Joe Natoli",
+        "expertise": "De30-year UX + Design Veteran; Consultant, Author & Speakerveloper and Lead Instructor",
+        "rating": "4.5 Instructor Rating",
+        "reviews": "58,386 Reviews",
+        "students": "244,577 Students",
+        "coursers": "12 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/402489_0bc6_5.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Writing",
+    "title": "Ninja Writing: The Four Levels Of Writing Mastery",
+    "volume": "Turn Your Business Writing, Blogs, Books & Essays Into Masterpieces",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Joe Natoli",
+    "rate": " 4.2 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses4.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "This course is designed for personal and home cyber security, privacy and anonymity. Most of the topics apply in the same way to a business, but the course is delivered as if to an individual for personal cyber security, privacy, and anonymity.",
+      "para2": "It is recommended that you watch volume 1 of this complete course before watching this volume (2) although it is not required.\n",
+      "para3": "Most items referenced in this course are free. But you may elect to purchase additional software, hardware and services discussed in the course. Although It is absolutely not necessary to buy anything to understand and follow the course.",
+      "para4": "You should have a basic understanding of networking concepts.",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "James B.",
+        "expertise": "De30-year UX + Design Veteran; Consultant, Author & Speakerveloper and Lead Instructor",
+        "rating": "71,153 Reviews",
+        "reviews": "4.6 Instructor Rating",
+        "students": "518,629 Students",
+        "coursers": "13 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/1681918_d7a1_7.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Web Development",
+    "title": "Ninja Writing: The Four Levels Of Writing Mastery",
+    "volume": "Turn Your Business Writing, Blogs, Books & Essays Into Masterpieces",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Andrew WilliamsJoe Natoli",
+    "rate": " 4.2 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses5.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "This course is designed for personal and home cyber security, privacy and anonymity. Most of the topics apply in the same way to a business, but the course is delivered as if to an individual for personal cyber security, privacy, and anonymity.",
+      "para2": "It is recommended that you watch volume 1 of this complete course before watching this volume (2) although it is not required.\n",
+      "para3": "Most items referenced in this course are free. But you may elect to purchase additional software, hardware and services discussed in the course. Although It is absolutely not necessary to buy anything to understand and follow the course.",
+      "para4": "You should have a basic understanding of networking concepts.",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Andrew Williams",
+        "expertise": "De30-year UX + Design Veteran; Consultant, Author & Speakerveloper and Lead Instructor",
+        "rating": "71,153 Reviews",
+        "reviews": "4.6 Instructor Rating",
+        "students": "518,629 Students",
+        "coursers": "13 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/4851584_06aa_2.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "3D & Animation",
+    "title": "Maya for Beginners: Complete Guide to 3D Animation",
+    "volume": "Learn everything you need for 3D animation in Autodesk Maya: Modeling, Texturing, Lighting, Rigging, Animation, Dynamics",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Andrew Williams",
+    "rate": " 4.5 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses6.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "This course is designed for personal and home cyber security, privacy and anonymity. Most of the topics apply in the same way to a business, but the course is delivered as if to an individual for personal cyber security, privacy, and anonymity.",
+      "para2": "It is recommended that you watch volume 1 of this complete course before watching this volume (2) although it is not required.\n",
+      "para3": "Most items referenced in this course are free. But you may elect to purchase additional software, hardware and services discussed in the course. Although It is absolutely not necessary to buy anything to understand and follow the course.",
+      "para4": "You should have a basic understanding of networking concepts.",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Phil Ebiner",
+        "expertise": "De30-year UX + Design Veteran; Consultant, Author & Speakerveloper and Lead Instructor",
+        "rating": "71,153 Reviews",
+        "reviews": "4.6 Instructor Rating",
+        "students": "518,629 Students",
+        "coursers": "13 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/317821_3cb5_10.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Programming Languages",
+    "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    "volume": "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Andrew Williams",
+    "rate": " 4.5 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses7.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "JavaScript + HTML + CSS fundamentals are absolutely required",
+      "para2": "You DON'T need to be a JavaScript expert to succeed in this course!",
+      "para3": "ES6+ JavaScript knowledge is beneficial but not a must-have",
+      "para4": "NO prior React or any other JS framework experience is required!",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Maximilian Schwarzmüller",
+        "expertise": "AWS certified, Professional Web Developer and Instructor",
+        "rating": "71,153 Reviews",
+        "reviews": "4.6 Instructor Rating",
+        "students": "518,629 Students",
+        "coursers": "60 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/13952972_e853.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Programming Languages",
+    "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    "volume": "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Andrew Williams",
+    "rate": " 4.5 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/courses8.jpg",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "JavaScript + HTML + CSS fundamentals are absolutely required",
+      "para2": "You DON'T need to be a JavaScript expert to succeed in this course!",
+      "para3": "ES6+ JavaScript knowledge is beneficial but not a must-have",
+      "para4": "NO prior React or any other JS framework experience is required!",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Maximilian Schwarzmüller",
+        "expertise": "AWS certified, Professional Web Developer and Instructor",
+        "rating": "71,153 Reviews",
+        "reviews": "4.6 Instructor Rating",
+        "students": "518,629 Students",
+        "coursers": "60 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/13952972_e853.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Programming Languages",
+    "title": "The Game Design and AI Master Class Beginner to Expert",
+    "volume": "3D game design, 2D game design, AI art, VR/AR/XR, Unity, coding, C#, game development, animation, programming, Photoshop",
+    "seller_position": "Bestseller",
+    "view_title": "What you'll learn\n",
+    "by": "Andrew Williams",
+    "rate": " 4.2 ",
+    "total_ratings": "(336,549 ratings)",
+    "students": "274,202 ",
+    "last_update": "Last updated 11/2023",
+    "language": "English",
+    "img": "images/courses/course9.png",
+    "view_paragraps": [
+      "An advanced practical skillset in defeating all online threats - advanced hackers, trackers, malware and all Internet nastiness including mitigating government spying and mass",
+      "The very latest up-to-date information and methods.\n",
+      "Explore the threat landscape - Darknets, dark markets, zero day vulnerabilities, exploit kits, malware, phishing and much more.\n",
+      "Go in-depth into security through physical and virtual isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n",
+      "A certificate of completion is available signed by the instructor Nathan House so CPE credits can be claimed. An off-site sign-up is required to provide your details for this optional certificate.\n",
+      "Start a career in cyber security. Become a cyber security specialist.\n",
+      "We cover operating system security, privacy, and patching - On Windows 7, Windows 8, Windows 10, MacOS and Linux.\n",
+      "You will master encryption in an easy to follow crash course.\n",
+      "You will learn about nation state secret tracking and hacking infrastructure.\n"
+    ],
+    "top_companies": {
+      "title": "Top companies offer this course to their employees",
+      "paragraph": "This course was selected for our collection of top-rated courses trusted by businesses worldwide. Learn more, ",
+      "logos": [
+        "images/logo/1.svg",
+        "images/logo/2.svg",
+        "images/logo/3.svg",
+        "images/logo/4.svg",
+        "images/logo/5.svg"
+      ]
+    },
+    "course_content": {
+      "lessons": "13 Sections",
+      "lectures": "124 lectures",
+      "duration": "12h 5m total length",
+      "accordion_titles": [
+        "Introduction",
+        "know Yourself - The Threat and Vulnerability Landscape",
+        "Know Your Enemy  - The Current Threat and Vulnerability Landscape",
+        "Encryption Crash Course",
+        "Setting up a Testing Environment Using Virtual Machines (Lab)",
+        "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)",
+        "Security Bugs and Vulnerabilities",
+        "Reducing Threat Privilege",
+        "Social Engineering and Social Media Offence and Defence",
+        "Security Domains",
+        "Security Through Isolation and Compartmentalization",
+        "Wrap Up",
+        "BONUS Section"
+      ],
+      "wraped_content": [
+        "\n      Welcome and Introduction to the Instructor!",
+        "Security Quick Win!",
+        "Goals and Learning Objectives - Volume 1",
+        "Target Audience",
+        "Study Recommendations",
+        "Course updates",
+        "Cyber Security and Ethical Hacking Careers"
+      ]
+    },
+    "cart_content": {
+      "price": "$12.99",
+      "title": "This course includes:",
+      "dsc": [
+        "12 hours on-demand video\n",
+        "1 article\n",
+        "1 downloadable resource\n",
+        "Access on mobile and TV\n",
+        "Full lifetime access\n",
+        "Certificate of completion\n"
+      ],
+      "title_2": "Training 5 or more people?\n",
+      "dsc_2": "Get your team access to 25,000+ top Udemy courses anytime, anywhere.\n\n"
+    },
+    "requirements": {
+      "title": "Requirements",
+      "para1": "JavaScript + HTML + CSS fundamentals are absolutely required",
+      "para2": "You DON'T need to be a JavaScript expert to succeed in this course!",
+      "para3": "ES6+ JavaScript knowledge is beneficial but not a must-have",
+      "para4": "NO prior React or any other JS framework experience is required!",
+      "para5": "Please note this is volume 2 of 4 of the complete course. After the completion of all 4 volumes, you will know more than 80% of security professionals, government and law enforcement agents and even expert hackers about maintaining security, privacy, and anonymity."
+    },
+    "descripton": {
+      "title": "Description",
+      "para": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity."
+    },
+    "instructor": [
+      {
+        "name": "Maximilian Schwarzmüller",
+        "expertise": "AWS certified, Professional Web Developer and Instructor",
+        "rating": "71,153 Reviews",
+        "reviews": "4.6 Instructor Rating",
+        "students": "518,629 Students",
+        "coursers": "60 Courses",
+        "img_url" : "https://img-b.udemycdn.com/user/200_H/1090084_f015_3.jpg",
+        "details1": "Joe Natoli has launched five successful online courses with Udemy on the topics of User Experience (UX) and User Interface (UI) Design, with more than 280,000+ students enrolled to date across multiple platforms. ",
+        "details2": "Joe has been preaching and practicing the gospel of User Experience (UX) to Fortune 100, 500 and Government organizations for three decades. That work includes commercial industry leaders like Facebook, Google, Kroll/Duff + Phelps, Broadridge, Conde Nast, Johns Hopkins, Mettler-Toledo, PHH Arval, SC Johnson and Wolters Kluwer, as well as government agencies like the National Science Foundation, National Institutes of Health, Dept. of Defense and the Dept. of Homeland Security.",
+        "details3":"Joe devotes half of his practice to writing, coaching, and speaking. From guiding students at the beginning of their careers to integrating UX into the work of seasoned veteran developers and designers, he is immensely passionate about the inherent power of UX and design."
+      }
+    ]
+  }
+
+  
+
+
+
+]

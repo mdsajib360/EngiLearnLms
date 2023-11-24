@@ -1,0 +1,231 @@
+:root {
+    --star-size: 25px;
+    --star-color: #ffffff;
+    --star-background: goldenrod;
+}
+
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times; 
+    /* line-height: 1; */
+
+    &::before {
+        content: '★★★★★';
+        letter-spacing: 3px;
+        background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+body{
+    background: #eee !important; 
+}
+
+#student{
+    font-size: 20px !important;
+}
+
+#a{
+    color: rgb(2, 18, 235) !important;
+    text-decoration: underline !important;
+}
+.icons{
+    width: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.la{
+    width: 20px;
+    margin-left: 5px !important;
+    
+}
+#arrow{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pa{
+    font-size: 14px;
+    
+}
+.pa-img{
+    width: 15px;
+    display: inline;
+}
+.paragaraph{
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+._lesson{
+    font-size: 14px;
+}
+
+.circle{
+    font-size: 40px;
+    position: relative;
+    top:-2px
+}
+.wrapped_img{
+    width: 20px;
+    
+    display: block;
+}
+.accordion-body p {
+    display: flex;
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.text{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.text2{
+    display: flex;
+    
+}
+
+.para_text{
+    font-size: 14px;
+    width: 100%;
+   
+    
+}
+
+body{
+    background: #fff !important;
+}
+
+.para{
+    display: flex;
+    
+}
+
+.para img{
+    margin-top: 5px;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+}
+.video_icon{
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+
+.love{
+    width: 50px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.add_to_cart{
+    width: 60%;
+    background-color: goldenrod;
+    height: 50px;
+}
+.love{
+    width: 35px;
+}
+.favorite{
+    background: #fff !important;
+    width: 30%;
+    height: 50px !important;
+}
+
+.buy{
+    margin-top: 15px;
+    display: block;
+    width: 90%;
+    height: 50px;
+    
+    background: #fff;
+}
+
+.video_icon2{
+position: absolute;
+    
+   top: 10%;
+   left: 35%;
+}
+.cart_image{
+    position: relative;
+}
+
+#detail_section{
+    margin-left: 20%;
+    display: flex;
+    position: relative;
+}
+#cart_section{
+    position: sticky;
+    top: 0;
+    left: 70%;
+        
+}
+
+#parax{
+    height: 200px !important;
+    overflow: hidden;
+}
+
+.img_c{
+    display: flex;
+    align-items: center;    
+}
+.img_c img{
+    margin-right: 20px;
+    
+}
+#see_more{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1525px) {
+ #detail_section{
+    margin-left: 0;
+ }
+
+ .detail_card{
+    width: 90% !important;
+ }
+
+    
+}
+
+@media only screen and (max-width:600px) {
+ #detail_section{
+    margin-left: 0;
+    flex-direction: column;
+ }
+
+ .logos_area{
+    flex-direction: column;
+ }
+ .logos_area img{
+    /* width: 100px;
+    height: 100px; */
+ }
+#detail_header{
+flex-direction: column;
+}
+.cat{
+    margin-bottom: 10px;
+}
+.s_I{
+   
+    background-size: contain;
+}
+    
+}

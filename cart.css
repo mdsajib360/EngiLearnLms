@@ -1,0 +1,67 @@
+:root {
+    --star-size: 25px;
+    --star-color: #ffffff;
+    --star-background: goldenrod;
+}
+
+.Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times;
+    /* line-height: 1; */
+
+    &::before {
+        content: '★★★★★';
+        letter-spacing: 3px;
+        background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.icons {
+    width: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.la {
+    width: 20px;
+    margin-left: 5px !important;
+
+}
+#student{
+    font-size: 14px;
+}
+
+body {
+    background: #ede6e6 !important;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart_img{
+    width: 200px;
+    margin: 20px;
+}
+.cart_container, #cart_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    background: blueviolet;
+    color: white;
+
+}
+.apply{
+    color: white;
+    background: blueviolet;
+}

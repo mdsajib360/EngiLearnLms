@@ -4,23 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EngiLearn</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Noto+Sans&family=Roboto:wght@400;500&display=swap');
-    </style>
-    <link rel="stylesheet" href="/courses.css">
+    <link rel="stylesheet" href="node_modules/mdb-ui-kit/css/mdb.min.css">
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="images/favicons/fav.png" type="image/x-icon">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="login.css">
     
-
+    <link rel="stylesheet" href="cart.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- nav bar -->
@@ -89,28 +81,49 @@
     </nav>
     <!-- nav end -->
 
-    <main>
-        <section class="">
-            <h1 class="text-center">Enroll Our Course & Services</h1>
-            <div id="services">
 
+<main>
+
+    <section class="container ,my-3">
+        <h1>Shopping Cart</h1>
+        <h6>1 Course in Cart</h6>
+        <hr>
+       <div class="cart_container">
+        <div class="cart">
+            <img class="cart_img" src="images/courses/course9.png" alt="">
+            <div class="body">
+                <h5 style="font-weight: 600;">The Game Design and AI Master Class Beginner to Expert</h5>
+                <p>by [ School of Game Design ]</p>
+                <div><button style="background: goldenrod"> Best Seller </button> <span> 4.2 </span> <span>336,549
+                        ratings</span>
+                    <div class="Stars" style="--rating: 3.3;" aria-label="Rating of this product is 2.3 out of 5.">
+                        <span id="student"> 274,202 students students</span>
+                    </div>
+        
+                    <span> <img class="icons" src="/images/icons/time.png"> Last updated 11/2023 </span>
+                    <span> <img class="la" src="/images/icons/language.png"> English </span>
+                </div>
             </div>
-            <!-- <div class="card" style="width: 400px;">
-                <img style="width: 400px;" src="images/courses/courses1.png" alt="">
-                <h5>The Complete Cyber Security Course : Hackers Exposed!</h5>
-                <p>by Alexandar Oni</p>
-                <button class="btn btn-danger">Enroll It Now</button>
-            </div> -->
-        </section>
+        </div>
+        <div class="chcekout">
+            <h3>Total: $12.99</h3>
+            <p>83% off</p>
+            <a href="/pay.html"> <button class="checkout mb-2">Checkout</button></a>
+            <h6 style="color:black; font-weight: 600;">Promotions:</h6>
+            <input type="text" placeholder="apply cupon"> <button class="apply">Apply</button>
+        </div>
+       </div>
+    </section>
 
-    </main>
-   
-    
-    
-    
-    
-    
-    <footer  style="background-color:#021428; ">
+</main>
+
+
+
+
+
+
+
+    <footer style="background-color:#021428; margin-top: 150px;">
         <!-- purchase section -->
         <section id="purchase" class="container mt-5 text-center">
             <h1 class="mt-5 mb-3" id="title">Let's go to Purchase</h1>
@@ -183,11 +196,11 @@
             <p class="mt-5">All Right Reserved 2023 EngliLearn</p>
         </div>
     </footer>
-
-
-
-
-    <script src="/courses.js"></script>
+    
+    <!-- <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script> -->
+    <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+    <script src="/firebaseApp.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

@@ -123,7 +123,7 @@ for (card of core_features) {
 
 
 
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("accordionf");
 var i;
 const plusOrMinus = document.querySelectorAll('.plus');
 
@@ -164,8 +164,8 @@ const courses = [
     {
         id: 2,
         img: 'images/courses/courses2.jpg',
-        description: 'The Complete Cyber Security Course : Hackers Exposed!',
-        author: 'by Joe Natoli'
+        description: 'The Complete 2023 Web Development Bootcamp',
+        author: 'Dr. Angela Yu'
 
 
     },
@@ -183,7 +183,7 @@ const courses = [
 const coursesElement = document.getElementById('courses');
 
 for (course of courses) {
-    const { img, description, author } = course;
+    const { img, description, author,id } = course;
 
 
     coursesElement.innerHTML += `
@@ -191,8 +191,9 @@ for (course of courses) {
                 <img src="${img}" alt="">
                 <h5>${description} </h5>
                 <p>${author} </p>
-                <button class="btn btn-danger">Enroll It Now</button>
+                <a style="display:block; text-align:center" class="view_course"  href="/details.html?id=${id}"><button class="btn btn-danger" >View Details</button></a>
             </div>
-    
+
     `
 }
+

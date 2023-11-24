@@ -10,8 +10,8 @@ const courses = [
     {
         id: 2,
         img: 'images/courses/courses2.jpg',
-        description: 'The Complete Cyber Security Course : Hackers Exposed!',
-        author: 'by Joe Natoli'
+        description: 'The Complete 2023 Web Development Bootcamp',
+        author: 'Dr. Angela Yu'
 
 
     },
@@ -62,22 +62,44 @@ const courses = [
         description:`The Game Design and AI Master Class Beginner to Expert`,
         author:`by [ School of Game Design ]`
     },
-    
+    {
+        id: 10,
+        img: `https://img-b.udemycdn.com/course/750x422/826410_16f3_14.jpg`,
+        description: `Software Development From A to Z - Beginner's Complete Guide`,
+        author: `Karoly Nyisztor`
+    },
+    {
+        id: 11,
+        img: `https://img-c.udemycdn.com/course/750x422/4879694_6afd_3.jpg`,
+        description: `Software Development and IT - complete guide to key concepts`,
+        author: `Kamil Kulik`
+    },
+    {
+        id: 12,
+        img: `https://img-c.udemycdn.com/course/750x422/1576854_9aeb_2.jpg`,
+        description: `Beginning C++ Programming - From Beginner to Beyond`,
+        
+
+    }
+ 
 ]
 
-const coursesElement = document.getElementById('courses');
+const coursesElement = document.getElementById('services');
 
 for (course of courses) {
-    const { img, description, author } = course;
+    const { img, description, author,id } = course;
 
     
     coursesElement.innerHTML += `
-     <div class="card course">
+     <div class="service ">
                 <img src="${img}" alt="">
+                <div className="description">
                 <h5>${description} </h5>
                 <p>${author} </p>
-                <button class="btn btn-danger">Enroll It Now</button>
-            </div>
-    
+                <a class="view_course" href="/details.html?id=${id}">view course</a>
+                </div>
+                </div>
+                
+
     `
 }

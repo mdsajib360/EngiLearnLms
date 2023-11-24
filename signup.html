@@ -5,9 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EngiLearn</title>
     <link rel="stylesheet" href="node_modules/mdb-ui-kit/css/mdb.min.css">
- 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    
 </head>
 <body>
+<!-- nav bar -->
+<nav class="sticky-top navbar  navbar-expand-lg card">
+    <div class="container-fluid">
+        <!-- break cumb -->
+        <!-- logo -->
+        <div><a class="navbar-brand" href="/index.html"><img src="images/logo/logo2.png" id="logo" alt=""></a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav" id="home_buttons">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/courses.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/About.html">About</a>
+                </li>
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/web.html">Web Development</a></li>
+                        <li><a class="dropdown-item" href="/soft.html">Software Development</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/language.html">Languages</a></li>
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+            <ul class="navbar-nav ms-auto" id="icons">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/login.html"><i class="bi bi-person-lines-fill"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard.html"><i class="bi bi-heart"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cart.html"><i class="bi bi-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</nav>
+<!-- nav end -->
+
+
+
+
     <section class="vh-100" style="background-color: #eee;">
         <div class="container h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
@@ -83,7 +158,85 @@
         </div>
     </section>
 
+
+<footer style="background-color:#021428;;">
+    <!-- purchase section -->
+    <section id="purchase" class="container mt-5 text-center">
+        <h1 class="mt-5 mb-3" id="title">Let's go to Purchase</h1>
+        <h6 class="mt-5">Purchase EngiLearn courses and Make Your Expected Dream Site Clean & faster.
+        </h6>
+        <a href="/courses.html"><button class="mt-5 mb-3" id="purchase_btn">Purchase Now</button></a>
+        <div class="features">
+            <div id="feature">
+                <div class="mb-3 img">
+                    <img src="images/features/feature1.png" alt="">
+                </div>
+
+                <div class="info">
+                    <h6>Free update
+                    </h6>
+                    <h6>Lifetime
+                    </h6>
+                </div>
+            </div>
+            <div id="feature">
+                <div class="mb-3 img">
+                    <img src="images/features/feature2.png" alt="">
+                </div>
+
+                <div class="info">
+                    <h6>Premium Support
+                    </h6>
+                    <h6>6 Months Free
+                    </h6>
+                </div>
+            </div>
+            <div id="feature">
+                <div class="mb-3 img">
+                    <img src="images/features/feature3.png" alt="">
+                </div>
+
+                <div class="info">
+                    <h6>Light/Dark
+                    </h6>
+                    <h6>Screen (Enjoy)
+                    </h6>
+                </div>
+            </div>
+            <div id="feature">
+                <div class="mb-3 img">
+                    <img src="images/features/feature4.png" alt="">
+                </div>
+                <div class="info">
+
+                    <h6>High Speed
+                    </h6>
+                    <h6>Performance</h6>
+                </div>
+            </div>
+            <div id="feature">
+                <div class="mb-3 img">
+                    <img src="images/features/feature5.png" alt="">
+                </div>
+
+                <div class="info">
+                    <h6>Clean code
+                    </h6>
+                    <h6>Developer Friendly
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer_copyright text-center">
+        <p class="mt-5">All Right Reserved 2023 EngliLearn</p>
+    </div>
+</footer>
+
     <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script>
-    <!-- <link rel="stylesheet" href="login.css"> -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 </html>

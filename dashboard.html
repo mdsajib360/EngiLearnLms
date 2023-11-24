@@ -4,23 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EngiLearn</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Noto+Sans&family=Roboto:wght@400;500&display=swap');
-    </style>
-    <link rel="stylesheet" href="/courses.css">
+    <link rel="stylesheet" href="node_modules/mdb-ui-kit/css/mdb.min.css">
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="images/favicons/fav.png" type="image/x-icon">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="login.css">
     
-
+     <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
     <!-- nav bar -->
@@ -56,12 +48,12 @@
                             Categories
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/web.html">Web Development</a></li>
-                            <li><a class="dropdown-item" href="/soft.html">Software Development</a></li>
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#">Software Development</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="/language.html">Languages</a></li>
+                            <li><a class="dropdown-item" href="#">Languages</a></li>
                         </ul>
                     </li>
     
@@ -89,28 +81,20 @@
     </nav>
     <!-- nav end -->
 
+
+
     <main>
-        <section class="">
-            <h1 class="text-center">Enroll Our Course & Services</h1>
-            <div id="services">
+        <h1 class="text-danger text-center my-3"> Courses that you've already Purchased</h1>
+        <div id="services">
 
-            </div>
-            <!-- <div class="card" style="width: 400px;">
-                <img style="width: 400px;" src="images/courses/courses1.png" alt="">
-                <h5>The Complete Cyber Security Course : Hackers Exposed!</h5>
-                <p>by Alexandar Oni</p>
-                <button class="btn btn-danger">Enroll It Now</button>
-            </div> -->
-        </section>
-
+        </div>
     </main>
-   
-    
-    
-    
-    
-    
-    <footer  style="background-color:#021428; ">
+
+
+
+
+
+    <footer style="background-color:#021428; margin-top: 150px;">
         <!-- purchase section -->
         <section id="purchase" class="container mt-5 text-center">
             <h1 class="mt-5 mb-3" id="title">Let's go to Purchase</h1>
@@ -183,13 +167,14 @@
             <p class="mt-5">All Right Reserved 2023 EngliLearn</p>
         </div>
     </footer>
-
-
-
-
-    <script src="/courses.js"></script>
+    
+    <!-- <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script> -->
+    <script src="node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+    <script src="/firebaseApp.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="/dashboard.js"></script>
 </body>
 </html>

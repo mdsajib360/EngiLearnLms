@@ -1,22 +1,32 @@
-#courses{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-.course{
-    margin: 20px 15px;
-    height: 500px;
-}
-img{
-    height: 280px;
+
+.service{
+   display: flex;
+   margin-bottom: 30px;
+   /* align-items: center; */
+   /* justify-content: space-around; */
+   margin-left: 10%;
+   margin-right: 10%;
+   border-bottom: 2px solid rgb(218, 213, 213);
+   padding-bottom: 20px;
+   margin-top: 50px;
 }
 
-@media only screen and (max-width:1450px){
-    #courses{
-        grid-template-columns: repeat(2,1fr);
-    }
+.service img{
+    /* height: 280px; */
+    margin-right: 22px;
+    width: 280px;
 }
+
+.view_course{
+    font-size: 25px;
+    font-weight: 500;
+}
+.view_course:hover{
+    color: red;
+}
+
 @media only screen and (max-width:600px){
-    #courses{
-        grid-template-columns: 1fr;
-    }
+.service{
+    flex-direction: column;
+}
 }

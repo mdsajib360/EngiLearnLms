@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Product Details</title>
+</head>
+<body>
+    <div id="product-details"></div>
+
+    <script>
+        // Define an array of products
+        const products = [
+            {
+                id: 1,
+                name: "Product 1",
+                description: "This is a description of product 1.",
+                price: 19.99
+            },
+            {
+                id: 2,
+                name: "Product 2",
+                description: "This is a description of product 2.",
+                price: 24.99
+            },
+            {
+                id: 3,
+                name: "Product 3",
+                description: "This is a description of product 3.",
+                price: 29.99
+            }
+        ];
+
+        // Get the product details container
+        const productDetailsContainer = document.getElementById('product-details');
+
+        // Function to show product details
+        function showProductDetails(productId) {
+            // Clear the container
+            productDetailsContainer.innerHTML = '';
+
+            // Find the product with the specified ID
+            const product = products.find(product => product.id === productId);
+
+            if (product) {
+                // Create the product details HTML
+                const productDetailsHTML = `
+          <h2>${product.name}</h2>
+          <p>${product.description}</p>
+          <p>Price: ${product.price}</p>
+        `;
+
+                // Add the product details HTML to the container
+                productDetailsContainer.innerHTML = productDetailsHTML;
+            } else {
+                // Product not found
+                productDetailsContainer.innerHTML = '<p>Product not found.</p>';
+            }
+        }
+
+        // Get the product ID from the URL
+        const productId = parseInt(window.location.search.split('?productId=')[1]);
+
+        // Show product details for the specified product ID
+        showProductDetails(productId);
+    </script>
+</body>
+</html>
