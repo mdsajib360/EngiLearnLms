@@ -14,10 +14,82 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="images/favicons/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="/load.css">
 </head>
 <body>
+<!-- loader -->
+ <section id="load_body">
+    <section class="main">
+        <svg class="pl" viewBox="0 0 270 270" width="270px" height="270px" role="img" aria-labelledby="pl-percent">
+            <defs>
+                <radialGradient id="glass1" r="1">
+                    <stop stop-color="hsla(0,0%,100%,0.05)" offset="0.4" />
+                    <stop stop-color="hsla(0,0%,100%,0.35)" offset="1" />
+                </radialGradient>
+                <linearGradient id="glass2" x1="0" y1="0" x2="0.75" y2="1">
+                    <stop stop-color="hsla(0,0%,100%,0.3)" offset="0" />
+                    <stop stop-color="hsla(0,0%,100%,0.08)" offset="1" />
+                </linearGradient>
+                <linearGradient id="glass3" x1="0" y1="0" x2="0" y2="1">
+                    <stop stop-color="hsla(0,0%,100%,0.3)" offset="0" />
+                    <stop stop-color="hsla(0,0%,100%,0)" offset="0.5" />
+                </linearGradient>
+                <linearGradient id="glass4" x1="0" y1="0" x2="0" y2="1">
+                    <stop stop-color="hsla(0,0%,100%,0)" offset="0.6" />
+                    <stop stop-color="hsla(0,0%,100%,0.3)" offset="1" />
+                </linearGradient>
+                <radialGradient id="glass5" r="1">
+                    <stop stop-color="hsla(0,0%,0%,0.2)" offset="0.45" />
+                    <stop stop-color="hsla(0,0%,0%,0)" offset="0.55" />
+                </radialGradient>
+                <linearGradient id="glass6" x1="0" y1="0" x2="0" y2="1">
+                    <stop stop-color="hsla(0,0%,100%,0.15)" offset="0" />
+                    <stop stop-color="hsla(0,0%,100%,0)" offset="0.3" />
+                </linearGradient>
+                <linearGradient id="glass7" x1="0" y1="0" x2="0" y2="1">
+                    <stop stop-color="hsla(0,0%,100%,0)" offset="0.7" />
+                    <stop stop-color="hsla(0,0%,100%,0.1)" offset="1" />
+                </linearGradient>
+                <clipPath id="glass8">
+                    <circle cx="135" cy="135" r="125" />
+                </clipPath>
+                <filter id="glass-glow">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+                </filter>
+                <filter id="glass2-blur">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+                </filter>
+            </defs>
+            <g fill="none">
+                <g transform="rotate(-90,135,135)">
+                    <circle class="pl__ring" r="105" cx="135" cy="135" stroke-dasharray="659.74 659.74"
+                        stroke-dashoffset="659.74" stroke-width="40" />
+                    <g filter="url(#glass-glow)" stroke-linecap="round" stroke-width="4" opacity="0.6">
+                        <circle class="pl__ring-glow1" r="80" cx="135" cy="135" stroke-dasharray="502.66 502.66"
+                            stroke-dashoffset="502.66" />
+                        <circle class="pl__ring-glow2" r="130" cx="135" cy="135" stroke-dasharray="816.82 816.82"
+                            stroke-dashoffset="816.82" />
+                    </g>
+                </g>
+                <circle stroke="url(#glass1)" stroke-width="40" r="105" cx="135" cy="135" />
+                <circle filter="url(#glass2-blur)" stroke="url(#glass2)" stroke-width="9" r="105" cx="135" cy="135" />
+                <circle stroke="url(#glass3)" stroke-width="1" r="109" cx="135" cy="135" />
+                <circle stroke="url(#glass4)" stroke-width="1" r="101" cx="135" cy="135" />
+                <circle stroke="url(#glass5)" stroke-width="14" r="92" cx="135" cy="135" />
+                <circle stroke="url(#glass6)" stroke-width="2" r="86" cx="135" cy="135" />
+                <circle stroke="url(#glass7)" stroke-width="4" r="87" cx="135" cy="135" />
+                <circle clip-path="url(#glass8)" stroke="hsla(var(--hue),90%,10%,0.1)" stroke-width="4" r="125" cx="135"
+                    cy="142" />
+            </g>
+            <text id="pl-percent" fill="currentcolor" font-size="48" text-anchor="middle" x="135" y="151"
+                data-percent></text>
+        </svg>
+    
+    </section>
+</section> 
 
-<!-- style="box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);" -->
+
+
     <!-- nav bar -->
     <nav class="sticky-top navbar  navbar-expand-lg card" >
         <div class="container-fluid">
@@ -379,7 +451,7 @@
                     <label for="form-message">Email your Message</label>
                     <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
                 </div>
-                <button class="btn btn-default" type="submit">Contact Us</button>                
+                <button class=" btn-default">Contact Us</button>                
             </form>
         </div>
     
@@ -471,5 +543,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+
+      <script src="/load.js"></script>
 </body>
 </html>

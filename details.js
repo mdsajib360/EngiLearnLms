@@ -558,6 +558,7 @@ const displayDeatails = (course, id) => {
   ]
 
   const coursesElement = document.getElementById('courses');
+  // const coursesElement = document.getElementById('recommended_courses');
 
   for (course of courses) {
     const { img, description, author, id } = course;

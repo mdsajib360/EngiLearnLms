@@ -9,7 +9,7 @@
 
     display: inline-block;
     font-size: var(--star-size);
-    font-family: Times; 
+    font-family: Times;
     /* line-height: 1; */
 
     &::before {
@@ -21,211 +21,241 @@
     }
 }
 
-body{
-    background: #eee !important; 
+body {
+    background: #eee !important;
 }
 
-#student{
+#student {
     font-size: 20px !important;
 }
 
-#a{
+#a {
     color: rgb(2, 18, 235) !important;
     text-decoration: underline !important;
 }
-.icons{
+
+.icons {
     width: 20px;
     display: inline-block;
     margin-right: 5px;
 }
-.la{
+
+.la {
     width: 20px;
     margin-left: 5px !important;
-    
+
 }
-#arrow{
+
+#arrow {
     font-size: 18px;
     font-weight: 600;
 }
 
-.pa{
+.pa {
     font-size: 14px;
-    
+
 }
-.pa-img{
+
+.pa-img {
     width: 15px;
     display: inline;
 }
-.paragaraph{
+
+.paragaraph {
     width: 50%;
     justify-content: space-evenly;
 }
 
-._lesson{
+._lesson {
     font-size: 14px;
 }
 
-.circle{
+.circle {
     font-size: 40px;
     position: relative;
-    top:-2px
+    top: -2px
 }
-.wrapped_img{
+
+.wrapped_img {
     width: 20px;
-    
+
     display: block;
 }
+
 .accordion-body p {
     display: flex;
     color: blue;
     text-decoration: underline;
     font-size: 14px;
 }
-.text{
+
+.text {
     display: inline-block;
     margin-left: 15px;
 }
 
-.text2{
+.text2 {
     display: flex;
-    
+
 }
 
-.para_text{
+.para_text {
     font-size: 14px;
     width: 100%;
-   
-    
+
+
 }
 
-body{
+body {
     background: #fff !important;
 }
 
-.para{
+.para {
     display: flex;
-    
+
 }
 
-.para img{
+.para img {
     margin-top: 5px;
     width: 8px;
     height: 8px;
     margin-right: 10px;
 }
-.video_icon{
+
+.video_icon {
     width: 80px;
     position: absolute;
     top: 50%;
     left: 50%;
-        transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
-.love{
+.love {
     width: 50px;
 }
 
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
 }
-.add_to_cart{
+
+.add_to_cart {
     width: 60%;
     background-color: goldenrod;
     height: 50px;
 }
-.love{
+
+.love {
     width: 35px;
 }
-.favorite{
+
+.favorite {
     background: #fff !important;
     width: 30%;
     height: 50px !important;
 }
 
-.buy{
+.buy {
     margin-top: 15px;
     display: block;
     width: 90%;
     height: 50px;
-    
+
     background: #fff;
 }
 
-.video_icon2{
-position: absolute;
-    
-   top: 10%;
-   left: 35%;
+.video_icon2 {
+    position: absolute;
+
+    top: 10%;
+    left: 35%;
 }
-.cart_image{
+
+.cart_image {
     position: relative;
 }
 
-#detail_section{
+#detail_section {
     margin-left: 20%;
     display: flex;
     position: relative;
 }
-#cart_section{
+
+#cart_section {
     position: sticky;
     top: 0;
     left: 70%;
-        
+
 }
 
-#parax{
+#parax {
     height: 200px !important;
     overflow: hidden;
 }
 
-.img_c{
+.img_c {
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
-.img_c img{
+
+.img_c img {
     margin-right: 20px;
-    
+
 }
-#see_more{
+
+#see_more {
     cursor: pointer;
 }
 
 @media only screen and (max-width:1525px) {
- #detail_section{
-    margin-left: 0;
- }
+    #detail_section {
+        margin-left: 0;
+    }
 
- .detail_card{
-    width: 90% !important;
- }
+    .detail_card {
+        width: 90% !important;
+    }
 
-    
+
 }
 
 @media only screen and (max-width:600px) {
- #detail_section{
-    margin-left: 0;
-    flex-direction: column;
- }
+    #detail_section {
+        margin-left: 0;
+        flex-direction: column;
+    }
 
- .logos_area{
-    flex-direction: column;
- }
- .logos_area img{
-    /* width: 100px;
+    .logos_area {
+        flex-direction: column;
+    }
+
+    .logos_area img {
+        /* width: 100px;
     height: 100px; */
- }
-#detail_header{
-flex-direction: column;
+    }
+
+    #detail_header {
+        flex-direction: column;
+    }
+
+    .cat {
+        margin-bottom: 10px;
+    }
+
+    .s_I {
+
+        background-size: contain;
+    }
+
 }
-.cat{
-    margin-bottom: 10px;
+
+#recommended_courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
-.s_I{
-   
-    background-size: contain;
-}
-    
+.view_all{
+    display: block !important;
+    color: red;
+    margin-top: -100px;
 }

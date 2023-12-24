@@ -164,7 +164,7 @@ const courses = [
     {
         id: 2,
         img: 'images/courses/courses2.jpg',
-        description: 'The Complete 2023 Web Development Bootcamp',
+        description: 'The Complete 2023 Web Development Bootcamp Angela Yu',
         author: 'Dr. Angela Yu'
 
 
@@ -172,7 +172,7 @@ const courses = [
     {
         id: 3,
         img: `images/courses/courses3.jpg`,
-        description: `TUX & Web Design Master Course: Strategy, Design, Development`,
+        description: `UI UX & Web Design Master Course: Strategy, Design, Development`,
         author: `by Daniel Walter Scott`
 
 
@@ -187,11 +187,12 @@ for (course of courses) {
 
 
     coursesElement.innerHTML += `
-     <div class="card course">
+     <div class="card featured_service">
+                <div className="course_body">
                 <img src="${img}" alt="">
                 <h5>${description} </h5>
-                <p>${author} </p>
-                <a style="display:block; text-align:center" class="view_course"  href="/details.html?id=${id}"><button class="btn btn-danger" >View Details</button></a>
+                <p>${author} </p></div>
+                <a style=" text-align:center;" id="view_course"  href="/details.html?id=${id}">View Details</a>
             </div>
 
     `
