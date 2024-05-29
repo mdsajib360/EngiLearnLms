@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+</head>
+<body>
+
+    <h1>Product Page</h1>
+
+    <div>
+        <h3>Product 1</h3>
+        <p>Price: $10</p>
+        <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+    </div>
+
+    <div>
+        <h3>Product 2</h3>
+        <p>Price: $20</p>
+        <button onclick="addToCart('Product 2', 20)">Add to Cart</button>
+    </div>
+
+    <a href="cart.html">Go to Cart</a>
+
+    <script>
+        function addToCart(productName, price) {
+            // Get existing cart items from local storage or initialize an empty array
+            const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Add the new item to the cart
+            const newItem = {
+                productName,
+                price,
+            };
+            cartItems.push(newItem);
+
+            // Save the updated cart back to local storage
+            localStorage.setItem('cart', JSON.stringify(cartItems));
+
+            alert(`${productName} added to cart!`);
+        }
+    </script>
+</body>
+</html>

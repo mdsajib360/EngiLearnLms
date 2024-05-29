@@ -7,25 +7,33 @@ async function fetchAndDisplaySingleCourses() {
     displayDeatails(course, productId);
     
 } 
-
+function getId(_id) {
+  return document.getElementById(_id);
+}
 
 fetchAndDisplaySingleCourses();
 
 const displayDeatails = (course, id) => {
     
-    const { category, title, volume, seller_position, view_title, by, rate, total_ratings, students, last_update, language, view_paragraps, top_companies, course_content, cart_content, requirements, descripton, instructor,img } = course[id - 1];
-    const detail_header = document.getElementById('detail_header');
-    const dd = document.getElementById('view_card')
-    const company = document.getElementById('company');
-    const cart_section = document.getElementById('cart_section');
+    const { category, title, intro, seller_position, view_title, by, rate, total_ratings, students, last_update, language, view_paragraps, top_companies, course_content, cart_content, requirements, descripton, instructor,img } = course[id - 1];
+    const detail_header = getId('detail_header');
+  const view_card = getId('view_card')
+    const company = getId('company');
+    const cart_section = getId('cart_section');
     
+  
+ 
+
+  
+  
+  // details 
    
     detail_header.innerHTML = `
    <div class="cat">
 
     <h6>Category <span id="arrow">></span> ${category} </h6>
     <h2>${title}</h2>
-    <p>${volume}</p>
+    <p>${intro}</p>
     <div><button style="background: goldenrod"> ${seller_position} </button> <span> ${rate}4</span> <span>${total_ratings} </span> <div class="Stars" style="--rating: ${rate};" aria-label="Rating of this product is 2.3 out of 5.">  <span id="student"> ${students}  students</span></div>
     <h6 class="mt-2">Created By  <a id="a">${by}</a></h6>
     <span> <img class="icons" src="/images/icons/time.png"> ${last_update} </span> 
@@ -476,7 +484,7 @@ const displayDeatails = (course, id) => {
    
    <h3>Price${price}</h3>
    <div cla"buttons">
-   <button  class="add_to_cart">Add To Cart</button> 
+   <button onclick="addToCart('s',20)" class="add_to_cart">Add To Cart</button> 
   
    <button  class="favorite"><img class="love" src="images/icons/love.png"> </button>
    </div>
@@ -532,7 +540,7 @@ const displayDeatails = (course, id) => {
   
   `
 
-
+// recommended section
   const courses = [
     {
       id: 4,
@@ -576,9 +584,28 @@ const displayDeatails = (course, id) => {
     
     `
   }
+ 
 
   
   
   
 }
 
+// const add_to_cart = getId('add_to_cart');
+
+function addToCart(productName, price) {
+  // Get existing cart items from local storage or initialize an empty array
+  const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+  // Add the new item to the cart
+  const newItem = {
+    productName,
+    price,
+  };
+  cartItems.push(newItem);
+
+  // Save the updated cart back to local storage
+  localStorage.setItem('cart', JSON.stringify(cartItems));
+
+  alert(`${productName} added to cart!`);
+}

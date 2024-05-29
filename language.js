@@ -3,8 +3,7 @@ const courses = [
         id: 12,
         img: `https://img-c.udemycdn.com/course/750x422/1576854_9aeb_2.jpg`,
         description: `Beginning C++ Programming - From Beginner to Beyond`,
-
-
+        author: `Dr. Frank Mitropoulos`
     },
     {
         id: 7,
